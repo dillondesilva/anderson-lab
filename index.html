@@ -18,6 +18,7 @@
         <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
           <a class="mr-5 hover:text-gray-900" href="/publications">Publications</a>
           <a class="mr-5 hover:text-gray-900" href="/team">Team</a>
+          <a class="mr-5 hover:text-gray-900" href="/contact">Contact</a>
         </nav>
       </div>
     </header>
@@ -29,7 +30,7 @@
             <p class="mb-8 leading-relaxed">Experimenting Neural Engineering and Computational Advances to Transform Epilepsy and Movement Disorder Research</p>
             <div class="flex justify-center flex-col md:flex-row">
               <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg md:w-fit" onclick="visitPublications()">Read Our Publications</button>
-              <button class="md:ml-4 mt-4 md:mt-0 text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg md:w-fit">Meet the Team</button>
+              <button class="md:ml-4 mt-4 md:mt-0 text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg md:w-fit" onclick="visitTeam()">Meet the Team</button>
             </div>
           </div>
         </div>
@@ -101,8 +102,8 @@
               <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                 <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/206x206">
                 <div class="flex-grow sm:pl-8">
-                  <h2 class="title-font font-medium text-lg text-gray-900">Kaanchana</h2>
-                  <h3 class="text-gray-500 mb-3">Honours Student</h3>
+                  <h2 class="title-font font-medium text-lg text-gray-900">Kaanchana Sekaran</h2>
+                  <h3 class="text-gray-500 mb-3">Undergraduate Student</h3>
                   <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
                 </div>
               </div>
@@ -127,6 +128,10 @@
       'https://scholar.google.com.au/citations?user=lEI8nwQAAAAJ&hl=en&oi=ao',
       '_blank'
     );
+  }
+
+  function visitTeam() {
+    window.location = "/team"
   }
 </script>
 </html>
